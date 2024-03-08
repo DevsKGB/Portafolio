@@ -1,0 +1,60 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.LeftSection {
+    flex: 1;
+}
+
+.wrapleftsection {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wrapleftsection img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.RightSection {
+    flex: 1;
+}
+
+@media screen and (min-width: 360px) {
+    .container {
+        max-width: 360px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 375px) {
+    .container {
+        max-width: 375px;
+    }
+}
+
+@media screen and (min-width: 720px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    .container {
+        max-width: 1366px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .container {
+        max-width: 1440px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .container {
+        max-width: 1920px;
+    }
+}
