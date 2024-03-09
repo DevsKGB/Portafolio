@@ -10,6 +10,7 @@
 .wrapleftsection {
     display: flex;
     flex-wrap: wrap;
+    margin-right: 1rem;
 }
 
 .wrapleftsection img {

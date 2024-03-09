@@ -1,7 +1,7 @@
-import Navbar from "./components/navbar";
+import Navbar from "./Components/navbar";
 
 import Aboutme from "../src/Components/Aboutme/index";
-
+import Skills from "./Components/Skills/index"
 function App() {
 
 
@@ -10,13 +10,17 @@ function App() {
       <div>
         <Navbar />
       </div>
+
+      <Aboutme />
+      <Skills />
+
     </>
   );
-  
-      <Aboutme/>
-       
-  
-  )
+
+
+
+
+
 }
 
 export default App;

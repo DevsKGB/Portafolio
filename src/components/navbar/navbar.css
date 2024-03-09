@@ -1,15 +1,5 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-}
 
-body {
-    background-color: #1a1e1f;
-    color: #d0e1f1;
-}
+
 
 h1 {
     font-size: 35px;
@@ -23,10 +13,10 @@ p,
 a {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    color: #e8ebee;
+    color: #4a4b4d;
 }
 
-.container {
+.containernavbar {
     background-color: #2c4955;
     display: flex;
     justify-content: space-between;

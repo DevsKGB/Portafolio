@@ -2,7 +2,7 @@ import "./navbar.css";
 
 const Navbar = () => {
   return (
-    <div className="container">
+    <div className="containernavbar">
       <nav className="navbar">
         {/* sección del logo */}
         <div className="logo">
