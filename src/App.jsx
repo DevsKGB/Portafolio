@@ -1,7 +1,7 @@
-import Navbar from "./Components/navbar";
+import Navbar from "./components/navbar";
 
-import Aboutme from "../src/Components/Aboutme/index";
-import Skills from "./Components/Skills/index"
+import Aboutme from "../src/components/Aboutme/index";
+import Skills from "./components/Skills/index"
 function App() {
 
 
