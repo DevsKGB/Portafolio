@@ -1,3 +1,4 @@
+import Navbar from "./components/navbar";
 
 import Aboutme from "../src/Components/Aboutme/index";
 
@@ -5,6 +6,12 @@ function App() {
 
 
   return (
+    <>
+      <div>
+        <Navbar />
+      </div>
+    </>
+  );
   
       <Aboutme/>
        
@@ -12,4 +19,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
