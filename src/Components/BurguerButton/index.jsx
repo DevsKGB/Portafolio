@@ -1,3 +1,6 @@
+import React from 'react';
+import './BurguerButton.css';
+
 const BurguerButton = () => {
     return (
       <div>
@@ -9,3 +12,5 @@ const BurguerButton = () => {
       </div>
     )
   }
+
+export default BurguerButton;
