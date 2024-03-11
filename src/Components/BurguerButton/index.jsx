@@ -7,6 +7,8 @@ const BurguerButton = (props) => (
       <span></span>
       <span></span>
       <span></span>
+      <span></span>
+      <span></span>
     </div>
   </div>
 );

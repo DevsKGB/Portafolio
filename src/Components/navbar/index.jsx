@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <>
       <div className="NavContainer">
-        <h2>Navbar <span>Responsive</span></h2>
+        <h2>Navbar Responsive</h2>
         <div className={`links ${clicked ? 'active' : ''}`}>
           <a href="#">Home</a>
           <a href="#">About</a>
@@ -24,6 +24,7 @@ const Navbar = () => {
         <div className="burger">
           <BurguerButton clicked={clicked} handleClick={handleClick} />
         </div>
+        
       </div>
     </>
   );
