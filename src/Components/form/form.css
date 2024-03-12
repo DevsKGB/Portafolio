@@ -69,13 +69,13 @@ textarea{
     margin-top: 20px;
 
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1359px) {
     form{
         width:100%;
     }
     .container-f{
         width:60%;
-        margin-top: 10%;
+        margin-top: 70px;
     }
     
 }
