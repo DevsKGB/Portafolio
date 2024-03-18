@@ -1,6 +1,6 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import BurguerButton from "../BurguerButton";
-
 import "./navbar.css";
 
 const Navbar = () => {
@@ -11,22 +11,23 @@ const Navbar = () => {
   };
 
   return (
-    <>
-      <div className="NavContainer">
-        <h2>Navbar Responsive</h2>
-        <div className={`links ${clicked ? 'active' : ''}`}>
-          <a href="#">Home</a>
-          <a href="#">About</a>
-          <a href="#">Skills</a>
-          <a href="#">Projects</a>
-          <a href="#">Contact</a>
-        </div>
-        <div className="burger">
-          <BurguerButton clicked={clicked} handleClick={handleClick} />
-        </div>
-        
+    <div className="NavContainer">
+      <h2>Navbar Responsive</h2>
+      <ul className={`links ${clicked ? "active" : ""}`}>
+        <li>
+          <Link to="/aboutme">About</Link>
+        </li>
+        <li>
+          <Link to="/skills">Skills</Link>
+        </li>
+        <li>
+          <Link to="/form">Form</Link>
+        </li>
+      </ul>
+      <div className="burger">
+        <BurguerButton clicked={clicked} handleClick={handleClick} />
       </div>
-    </>
+    </div>
   );
 };
 
